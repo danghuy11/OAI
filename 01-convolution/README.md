@@ -1,11 +1,8 @@
-1. convolution1-kernel-opencv [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/andylucny/OAI/blob/master/01-convolution/convolution1-kernel-opencv.ipynb)
-
-2. convolution2-kernel-pytorch [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/andylucny/OAI/blob/master/01-convolution/convolution2-kernel-pytorch.ipynb)
-
-3. convolution3-training [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/andylucny/OAI/blob/master/01-convolution/convolution3-training.ipynb)
-
-4. convolution4-testing.ipynb [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/andylucny/OAI/blob/master/01-convolution/convolution4-testing.ipynb)
-
-5. convolution5-testing.ipynb [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/andylucny/OAI/blob/master/01-convolution/convolution5-mlps.ipynb)
-
-6. homework01.ipynb [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/andylucny/OAI/blob/master/01-convolution/homework01.ipynb)
+| Notebook | Link |
+|-----------|------|
+| convolution1-kernel-opencv | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/andylucny/OAI/blob/master/01-convolution/convolution1-kernel-opencv.ipynb) |
+| convolution2-kernel-pytorch | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/andylucny/OAI/blob/master/01-convolution/convolution2-kernel-pytorch.ipynb) |
+| convolution3-training | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/andylucny/OAI/blob/master/01-convolution/convolution3-training.ipynb) |
+| convolution4-testing | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/andylucny/OAI/blob/master/01-convolution/convolution4-testing.ipynb) |
+| convolution5-mlps | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/andylucny/OAI/blob/master/01-convolution/convolution5-mlps.ipynb) |
+| homework01 | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/andylucny/OAI/blob/master/01-convolution/homework01.ipynb) |
