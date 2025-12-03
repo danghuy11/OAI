@@ -5,3 +5,4 @@ Vzdelávanie pre olympiádu v umelej inteligencii
 
 [Konvolučný autokóder a klasifikátor, 5.11.2025, 15:00-17:00](02-autoencoder/)
 
+[Detektory objektov, 26.11.2025, 15:00-17:00](03-detector/)
