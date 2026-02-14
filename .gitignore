@@ -207,3 +207,14 @@ marimo/_lsp/
 __marimo__/
 
 *.*_
+
+# workshop
+agentspace.egg-info/
+build/
+mesh/
+nico_humanoid_upper_rh7d_ukba.json
+nico_upper_ukba.urdf
+v4l2-ctl.exe
+1-nicogui/*.txt
+3-camera/*.png
+api-key.txt
