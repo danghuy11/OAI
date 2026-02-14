@@ -21,9 +21,10 @@ def chatgpt (question):
             {
                 "role": "system", 
                 "content": (
-                    "Ty si asistent. Užívateľ ukazuje objekt a pomenúva ho. "
-                    "Ak pýta sa či sa ukazovaný objekt nazýva tak a tak, odpovedz jedným slovom - názvom objektu. "
-                    "Inak vráť prázdny reťazec."
+                    "You are an assistant. The user shows an object and names it in Slovak language. "
+                    "If the user asks whether the shown object is called something, "
+                    "respond with exactly ONE WORD in English — the object name. "
+                    "Otherwise return an empty string."
                 )
             },
             {
@@ -32,7 +33,7 @@ def chatgpt (question):
             },
             {
                 "role": "assistant",
-                "content": "kačička"
+                "content": "duck"
             },
             {
                 "role": "user",
@@ -59,5 +60,5 @@ def chatgpt (question):
         return ""
         
 if __name__ == "__main__":
-    name = chatgpt("Je toto tiež psíček, do čerta?")
+    name = chatgpt("Je toto tiež pes, do čerta?")
     print(name)

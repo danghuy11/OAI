@@ -1,1 +1,1 @@
-python tryspeak.py
+python -i tryspeak.py

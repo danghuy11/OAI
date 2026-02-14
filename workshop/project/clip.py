@@ -10,8 +10,7 @@ model = CLIPModel.from_pretrained("openai/clip-vit-base-patch32")
 processor = CLIPProcessor.from_pretrained("openai/clip-vit-base-patch32", use_fast=False)
 model.eval()
 
-#device = 'cuda' if torch.cuda.is_available() else 'cpu'
-device = 'cpu'
+device = 'cuda' if torch.cuda.is_available() else 'cpu'
 print('device:',device)
 model.to(device)
 
@@ -27,15 +26,19 @@ def image_clip(image,cropping = True):
     inputs = processor(images=image, return_tensors="pt")
     inputs = {k: v.to(device) for k, v in inputs.items()}
     with torch.no_grad():
-        image_features = model.get_image_features(**inputs)['pooler_output']
+        image_features = model.get_image_features(**inputs)
+        if isinstance(image_features, dict) and 'pooler_output' in image_features: # fix for higher versions
+            image_features = image_features['pooler_output']
         #image_features = image_features / image_features.norm(dim=-1, keepdim=True)
     return image_features.cpu().numpy()
-    
+       
 def text_clip(texts):
     inputs = processor(text=texts, return_tensors="pt", padding=True)
     inputs = {k: v.to(device) for k, v in inputs.items()}
     with torch.no_grad():
-        text_features = model.get_text_features(**inputs)['pooler_output']
+        text_features = model.get_text_features(**inputs)
+        if isinstance(text_features, dict) and 'pooler_output' in text_features: # fix for higher versions
+            text_features = text_features['pooler_output']
         #text_features = text_features / text_features.norm(dim=-1, keepdim=True)
     return text_features.cpu().numpy()
     

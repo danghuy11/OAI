@@ -1,1 +1,2 @@
 python clip.py
+pause
