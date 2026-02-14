@@ -37,9 +37,9 @@ LookAroundAgent('dinoPoint','dontLook')
 time.sleep(1)
 SpeakerAgent('tospeak')
 time.sleep(1)
-ListenerAgent('audio',2) #2 for onboard microphone
+ListenerAgent('audio',1) #2 for onboard microphone
 time.sleep(1)
-TranscriptionAgent('audio','text') # transcribe audio into text via whisper
+TranscriptionAgent('audio','listened') # transcribe audio into text via whisper
 time.sleep(1)
 
 class ControlAgent(Agent):
@@ -110,7 +110,7 @@ class ControlAgent(Agent):
                 setAngle('head_y',0.0)
                 if text_index == image_index:
                     # yes
-                    self.speak('yes')
+                    self.speak('áno, je.')
                     movement = [
                         {'head_y':-20},
                         {'head_y':20},
@@ -120,7 +120,7 @@ class ControlAgent(Agent):
                         {'head_y':20},
                     ]
                 else:
-                    self.speak('no')
+                    self.speak('nie, nie je.')
                     movement = [
                         {'head_z':-30},
                         {'head_z':30},

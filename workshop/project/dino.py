@@ -6,7 +6,8 @@ import cv2
 vits8 = torch.hub.load('facebookresearch/dino:main', 'dino_vits8')
 vits8.eval()
 
-device = 'cuda' if torch.cuda.is_available() else 'cpu'
+#device = 'cuda' if torch.cuda.is_available() else 'cpu'
+device = 'cpu'
 print('device:',device)
 vits8.to(device)
 
