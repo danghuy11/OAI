@@ -7,3 +7,4 @@
 | CLIP | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/andylucny/OAI/blob/master/05-transformer/clip.ipynb) |
 | GLEE | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/andylucny/OAI/blob/master/05-transformer/glee.ipynb) |
 | SAM3 | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/andylucny/OAI/blob/master/05-transformer/sam3.ipynb) |
+| homework | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/andylucny/OAI/blob/master/05-transformer/sevens.ipynb) |
